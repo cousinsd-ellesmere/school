@@ -91,8 +91,6 @@
 {% endif %}
 </ul>
 
-{{ diary.get_photos }}
-
 <div class="task-list">
     <table class="task-list table table-sm">
     {% for task in diary.tasks %}
@@ -130,11 +128,13 @@
     {% endfor %}
     </table>
 </div>
+{% comment %}
           {% for photo in  diary.get_photos %}
             <a href="{{ photo.get_detail_url }}">
               <img src="{{ photo.get_image_url }}" width="50">
             </a>
           {% endfor %}
+{% endcomment %}
 
 <span id="diary_span_map">
     <div id="diary_map"></div>
