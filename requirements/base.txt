@@ -5,7 +5,7 @@ chardet==3.0.4
 cycler==0.10.0
 decorator==4.2.1
 dj-database-url==0.4.2
-Django==2.0.2
+Django==2.0.12
 django-braces==1.4.0
 django-floppyforms==1.7.0
 django-model-utils==2.0.3
